@@ -1,0 +1,577 @@
+/* All over */
+body {
+	background: #b3b6ad;
+	text-align: center;
+	margin: 0px; 
+	padding: 0 20px 0 20px;
+	}
+	
+.twelvePaces {
+	margin: 0 auto 20px;
+	max-width: 800px;
+	}
+
+#header {
+margin: 150px 0 100px 0;
+}
+
+#header img{
+max-width: 100%;
+}
+
+.iebox {
+	text-align: center;
+	padding: 10px 13px;
+	width: 100%;
+	margin: 20px 0 0;
+	display: none;
+}
+
+.iebox p {
+	color: #6c6957;
+	font: .8em Verdana;
+	padding-bottom: .5em;
+	line-height: 1.2em;
+}
+
+.iebox a {
+	color: #a4573c;
+	text-decoration: none;
+	}
+
+.iebox a:hover {	
+	color: #df6236;
+	}
+
+#footer {
+margin: 220px 0 210px 0;
+}
+
+#footer img{
+max-width: 100%;
+}
+
+.fRight {
+	float: right;
+	}
+	
+.fLeft {
+	float: left;
+	}
+	
+.clearFix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+	
+.duelers {
+width: 49%;
+height: 286px;
+}
+
+.DUEL {
+margin-top: 130px;
+}
+
+.info {
+}
+
+.info_Left {
+text-align: left;
+}
+
+.info_Right {
+text-align: right;
+}
+
+.rightDueler {
+width: 49%;
+float: right;
+}
+
+.leftDueler {
+width: 49%;
+}
+
+h3 {
+	font: 2em Georgia;
+	color: #fff;
+	padding-bottom: .05em;
+}
+
+.subTitle {
+	font-style: italic;
+	font-size: 1.2em;
+	}
+
+/* Both Duelers */
+
+#dueler:hover{
+	border-bottom: 5px dotted #fff;
+	height: 275px;
+	}
+	
+#dueler:active{
+	border-bottom: 20px solid #df6236;
+	height: 260px;
+	}
+	
+.duelist, .duelist_2 {
+	margin: 0px;
+	position: relative;
+	z-index: 5;
+	}
+
+#dueler {
+	width: 95px;
+	height: 280px;
+	border-bottom: 1px dotted #fff;
+	-webkit-transition: border .4s linear, height .4s linear;
+		-moz-transition: border .4s linear, height .4s linear;
+			transition: border .4s linear, height .4s linear;
+	margin: 0 0 5px 0;
+	}	
+
+.talkBox {
+	padding: 10px;
+	-webkit-border-radious: 5px;
+		-moz-border-radius: 5px;
+			border-radius: 5px;
+	margin: 0 0 25px 0px;
+	width: 300px;
+	height: 58px;
+}
+
+.talkBox p {
+	font-size: 1em;
+	line-height: 1.2em;
+	font-family: Georgia;
+	color: #b3b6ad;
+	-webkit-transition: color .5s linear, background .5s linear;
+		-moz-transition: color .5s linear, background .5s linear;
+			transition: color .5s linear, background .5s linear;
+	-webkit-border-radious: 5px;
+		-moz-border-radius: 5px;
+			border-radius: 5px;
+	padding: 10px;
+}
+
+#dueler:hover a.talkBoxLink p {
+	color: #78713f;
+	background-color: #fff;
+}
+
+.history {
+	text-align: left;
+	background: #dbd8c5;
+	padding: 10px 13px;
+	width: 100%-26px;
+	margin: 20px 0 0;
+	-webkit-transition: color .5s linear, background .5s linear;
+		-moz-transition: color .5s linear, background .5s linear;
+			transition: color .5s linear, background .5s linear;
+	-webkit-border-radious: 5px;
+		-moz-border-radius: 5px;
+			border-radius: 5px;
+}
+
+.history p {
+	color: #6c6957;
+	font: .8em Verdana;
+	padding-bottom: .5em;
+	line-height: 1.2em;
+}
+	
+.story {
+	width: 70%;
+	}
+
+.book {
+	width: 25%;
+	text-align: center;
+	padding-top: 45px;
+	}
+
+.book img{
+max-width: 100%;
+}
+
+.book a {
+	color: #a4573c;
+	text-decoration: none;
+	}
+
+.book a:hover {	
+	color: #df6236;
+	}
+	
+/* Tradesman */
+	
+.tradesmanArm {
+	margin: -142px 0 0 -38px;
+	-webkit-transform-origin: right;
+		-moz-transform-origin: right;
+			transform-origin: right;
+	-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+		-moz-transition: -moz-transform .1s linear, margin .1s linear;
+			transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.tradesmanLink img {
+	-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+			transform: rotate(0deg);
+	margin: -135px 0 0 -26px;
+	}
+
+#dueler:active a.tradesmanBulletLink div {
+	background: #000;
+	margin-left: -620px;
+	}
+
+.tradesmanBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 40px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+		-moz-transition: margin .5s linear, background .1s linear;
+			transition: margin .5s linear, background .1s linear;
+	}
+
+
+/* Sam Houston */
+	
+.houstonArm {
+	margin: -73px 0 0 -15px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.houstonLink img {
+	-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+			transform: rotate(0deg);
+
+	margin: -138px 0 0 43px;
+	}
+
+#dueler:active a.houstonBulletLink div {
+	background: #000;
+	margin-left: 710px;
+	}
+
+.houstonBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 80px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+		-moz-transition: margin .5s linear, background .1s linear;
+			transition: margin .5s linear, background .1s linear;
+	}
+	
+/* Andrew Jackson */
+	
+.jacksonArm {
+	margin: -138px 0 0 -50px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(-90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(-90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.jacksonLink img {
+	-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+			transform: rotate(0deg);
+	margin: -132px 0 0 -38px;
+	}
+
+#dueler:active a.jacksonBulletLink div {
+	background: #000;
+	margin-left: -620px;
+	}
+
+.jacksonBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 0px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+		-moz-transition: margin .5s linear, background .1s linear;
+			transition: margin .5s linear, background .1s linear;
+	}
+
+
+/* Charles Dickinson */
+	
+.charlesArm {
+	margin: -71px 0 0 -11px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.charlesLink img {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	margin: -135px 0 0 47px;
+	}
+
+#dueler:active a.charlesBulletLink div {
+	background: #000;
+	margin-left: 720px;
+	}
+
+.charlesBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 80px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+	-moz-transition: margin .5s linear, background .1s linear;
+	transition: margin .5s linear, background .1s linear;
+	}
+
+/* James Laird */
+	
+.lairdArm {
+	margin: -66px 0 0 -8px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.lairdLink img {
+	-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+			transform: rotate(0deg);
+	margin: -130px 0px 0 49px;
+	}
+
+#dueler:active a.lairdBulletLink div {
+	background: #000;
+	margin-left: 700px;
+	}
+
+.lairdBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 100px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+		-moz-transition: margin .5s linear, background .1s linear;
+			transition: margin .5s linear, background .1s linear;
+	}
+
+
+/* Mark Twain */
+	
+.twainArm {
+	margin: -141px 0 0 -44px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(-90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(-90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.twainLink img {
+	-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+			transform: rotate(0deg);
+	margin: -135px 0px 0 -32px;
+	}
+
+#dueler:active a.twainBulletLink div {
+	background: #000;
+	margin-left: -630px;
+	}
+
+.twainBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 80px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+		-moz-transition: margin .5s linear, background .1s linear;
+			transition: margin .5s linear, background .1s linear;
+	}
+	
+/* James Shields */
+	
+.shieldsArm {
+	margin: -42px 0 0 -28px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.shieldsLink img {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	margin: -127px 0 0 57px;
+	}
+
+
+/* Abraham Lincoln */
+	
+.lincolnArm {
+	margin: -138px 0 0 -81px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(-90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(-90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.lincolnLink img {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	margin: -130px 0px 0 -72px;
+	}
+
+	
+/* Aaron Burr */
+	
+.burrArm {
+	margin: -52px 0 0 -23px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.burrLink img {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	margin: -132px 0 0 50px;
+	}
+
+#dueler:active a.burrBulletLink div {
+	background: #000;
+	margin-left: 700px;
+	}
+
+.burrBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 150px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+	-moz-transition: margin .5s linear, background .1s linear;
+	transition: margin .5s linear, background .1s linear;
+	}
+
+
+/* Alexander Hamilton */
+	
+.hamiltonArm {
+	margin: -141px 0 0 -59px;
+	-webkit-transform-origin: right;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transition: -webkit-transform .1s linear, margin .1s linear;
+	-moz-transform-origin: right;
+	-moz-transform: rotate(-90deg);
+	-moz-transition: -moz-transform .1s linear, margin .1s linear;
+	transform-origin: right;
+	transform: rotate(-90deg);
+	transition: transform .1s linear, margin .1s linear;
+	position: relative;
+	z-index: 2;
+	}
+	
+#dueler:hover a.hamiltonLink img {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+
+	margin: -135px 0px 0 -47px;
+	}
+
+#dueler:active a.hamiltonBulletLink div {
+	background: #000;
+	margin-left: -630px;
+	}
+
+.hamiltonBullet {
+	width:6px;
+	height: 3px;
+	background: #b3b6ad;
+	margin: -130px 0 0 0px;
+	-webkit-transition: margin .5s linear, background .1s linear;
+	-moz-transition: margin .5s linear, background .1s linear;
+	transition: margin .5s linear, background .1s linear;
+	}
